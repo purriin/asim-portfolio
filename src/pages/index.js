@@ -9,15 +9,16 @@ export default function Home() {
             <Header />
         
             {/* Home Page: */}
+            <section id="home" />
             <div className="isolate pt-14 bg-wave">
                 <div className="mx-auto max-w-4xl py-56 sm:py-56 lg:py-56">
                     <div className="lg:grid lg:grid-cols-2 md:gap-0 md:flex">
 
                         {/* Profile Picture + Links: */}
-                        <div className="fadeinslow lg:mx-0 md:mx-24 mx-10">
+                        <div className="fadedown lg:mx-0 md:mx-24 mx-10">
                             <img src={require('../assets/Asim2.png')} alt="Asim" class="object-scale-down h-96 w-96 rounded-t-[24px] md:items-right justify-center items-center" />
 
-                            <div class="bg-elevation rounded-b-[24px] h-18 w-96">
+                            <div class="bg-gradient-to-b from-elevation to-elevation2 rounded-b-[24px] h-18 w-96">
                                 <div className="flex space-x-10 justify-center align-middle py-5">
                                     <a href="https://www.github.com/purriin/" target="_blank" rel="noreferrer" class="transition-all ease-in-out duration-200 text-txt hover:text-bright hover:-translate-y-1">
                                         <svg class="w-10 h-10" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
@@ -69,7 +70,7 @@ export default function Home() {
             <div className="relative isolate pt-4 bg-bg">
                 <div className="mx-auto max-w-5xl py-32">
                     <div className="md:text-left text-center md:mx-0 mx-10 md:py-0 py-20">
-                        <h1 class="md:text-6xl text-6xl md:font-bold text-primary fadein title"> 
+                        <h1 class="text-6xl font-bold text-primary fadein title"> 
                             ABOUT
                         </h1>
 
@@ -79,6 +80,32 @@ export default function Home() {
                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </p>
+                        
+                        <div class="h-px my-6 bg-txt border-0 dark:bg-txt"> </div>
+
+                        <div className="md:flex md:visible collapse gap-4 md:justify-start justify-center">
+                            <div className="transition-all ease-in-out duration-200 text-sm font-medium leading-6 text-secondary hover:text-primary paragraph rounded-lg px-3 ring-1 ring-secondary hover-ring-primary">
+                                <p>C/C++</p>
+                            </div>
+                            <div className="transition-all ease-in-out duration-200 text-sm font-medium leading-6 text-secondary hover:text-primary paragraph rounded-lg px-3 ring-1 ring-secondary hover-ring-primary">
+                                <p>Python</p>
+                            </div>
+                            <div className="transition-all ease-in-out duration-200 text-sm font-medium leading-6 text-secondary hover:text-primary paragraph rounded-lg px-3 ring-1 ring-secondary hover-ring-primary">
+                                <p>Git</p>
+                            </div>
+                            <div className="transition-all ease-in-out duration-200 text-sm font-medium leading-6 text-secondary hover:text-primary paragraph rounded-lg px-3 ring-1 ring-secondary hover-ring-primary">
+                                <p>PyTorch</p>
+                            </div>
+                            <div className="transition-all ease-in-out duration-200 text-sm font-medium leading-6 text-secondary hover:text-primary paragraph rounded-lg px-3 ring-1 ring-secondary hover-ring-primary">
+                                <p>ARM Assembly</p>
+                            </div>
+                            <div className="transition-all ease-in-out duration-200 text-sm font-medium leading-6 text-secondary hover:text-primary paragraph rounded-lg px-3 ring-1 ring-secondary hover-ring-primary">
+                                <p>Verilog</p>
+                            </div>
+                            <div className="transition-all ease-in-out duration-200 text-sm font-medium leading-6 text-secondary hover:text-primary paragraph rounded-lg px-3 ring-1 ring-secondary hover-ring-primary">
+                                <p>MATLAB</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -93,7 +120,7 @@ export default function Home() {
                                 EDUCATION
                             </h1>
 
-                            <div class="mt-10 bg-elevation rounded-[24px] h-auto w-auto">
+                            <div class="mt-10 bg-gradient-to-b from-elevation2 to-elevation rounded-[24px] h-auto w-auto">
                                 <div className="justify-left mx-10 py-5">
                                     <h2 className="font-bold text-3xl text-secondary paragraph">
                                         University of Toronto
@@ -120,7 +147,7 @@ export default function Home() {
                                 </div>
                             </div>
 
-                            <div class="mt-10 bg-elevation rounded-[24px] h-auto w-auto">
+                            <div class="mt-10 bg-gradient-to-b from-elevation2 to-elevation rounded-[24px] h-auto w-auto">
                                 <div className="justify-left mx-10 py-5">
                                     <h2 className="font-bold text-3xl text-secondary paragraph">
                                         High School
@@ -161,27 +188,26 @@ export default function Home() {
                             PROJECTS
                         </h1>
 
-                        <div class="mt-10 bg-elevation rounded-[24px] h-auto w-auto">
-                                <div className="justify-left mx-10 py-5">
-                                    
+                        <div class="mt-10 bg-gradient-to-b from-elevation2 to-elevation rounded-[24px] h-auto w-auto">
+                            <div className="justify-left mx-10 py-5">
+                                <div className="lg:flex justify-between">
+                                    <h2 className="font-bold text-3xl text-secondary paragraph">
+                                        University of Toronto
+                                    </h2>
 
-                                    <div className="lg:flex justify-between">
-                                        <h2 className="font-bold text-3xl text-secondary paragraph">
-                                            University of Toronto
-                                        </h2>
-
-                                        <p className="md:mt-0 mt-10 text-2xl text-txt paragraph">
-                                            September 2021 - April 2025
-                                        </p>
-                                    </div>
-
-                                    <div class="h-px my-8 bg-txt border-0 dark:bg-txt"> </div>
-
-                                    <ul className="text-xl text-txt paragraph mt-2">
-                                        <li>• Worked as a 3rd Year ECE Class Representative and an ECE Academic Director</li>
-                                    </ul>
+                                    <p className="md:mt-0 mt-10 text-2xl text-txt paragraph">
+                                        September 2021 - April 2025
+                                    </p>
                                 </div>
+
+                                <div class="h-px my-8 bg-txt border-0 dark:bg-txt"> </div>
+
+                                <ul className="text-xl text-txt paragraph mt-2">
+                                    <li>• Worked as a 3rd Year ECE Class Representative and an ECE Academic Director</li>
+                                </ul>
                             </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

@@ -7,6 +7,28 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #121212;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FFFFFF33;
+  width: 10px;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #FFFFFF4D;
+}
+
 /* Fonts */
 @font-face {
   font-family: 'Manolo Mono';
@@ -46,4 +68,19 @@ html {
 
 .fadeinslow {
   animation: fadein 3s;
+}
+
+@keyframes fadedown {
+  0% {
+      opacity: 0;
+      transform: translateY(-15%);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.fadedown {
+  animation: fadedown 2s;
 }

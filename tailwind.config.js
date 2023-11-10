@@ -18,6 +18,7 @@ module.exports = {
         'txt': '#FFFFFF99',
         'bright': '#FFFFFFDE',
         'elevation': '#FFFFFF0D',
+        'elevation2': '#FFFFFF12',
         'transparent': '#FFFFFF00'
       },
     },
