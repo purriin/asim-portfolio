@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.40a7ed10.css",
+    "main.js": "/static/js/main.c3372297.js",
+    "static/js/453.8cd40754.chunk.js": "/static/js/453.8cd40754.chunk.js",
+    "static/media/Asim2.png": "/static/media/Asim2.ecacc004e10e97ae1934.png",
+    "static/media/Asim_Resume_2023.pdf": "/static/media/Asim_Resume_2023.d3b3ade9a0a79cd730ce.pdf",
+    "static/media/ManoloMono.ttf": "/static/media/ManoloMono.7725288dbb96afed3e3f.ttf",
+    "static/media/ManoloMono.woff": "/static/media/ManoloMono.97ca24c182b233498324.woff",
+    "static/media/ManoloMono.woff2": "/static/media/ManoloMono.d5ebf8c00a654f6f6e58.woff2",
+    "static/media/endless-constellation.svg": "/static/media/endless-constellation.c67105143ec86fdcf8ff.svg",
+    "index.html": "/index.html",
+    "main.40a7ed10.css.map": "/static/css/main.40a7ed10.css.map",
+    "main.c3372297.js.map": "/static/js/main.c3372297.js.map",
+    "453.8cd40754.chunk.js.map": "/static/js/453.8cd40754.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40a7ed10.css",
+    "static/js/main.c3372297.js"
+  ]
+}

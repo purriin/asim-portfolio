@@ -76,10 +76,12 @@ export default function Home() {
                         </h1>
 
                         <p className="mt-8 text-xl text-txt fadein paragraph">
-                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        I'm Asim, a motivated and enthusiastic third-year student studying computer engineering who has a deep interest 
+                        in the nexus between programming and artificial intelligence. As a future engineer, I do best in fast-paced settings 
+                        that appreciate innovative thinking, creativity, and problem-solving abilities. I have acquired a wide range of technical
+                         abilities from my journey so far, including fluency in machine learning frameworks like TensorFlow and PyTorch, and 
+                         programming languages like Python and C/C++. I've refined my skills in algorithm design, data structures, and software 
+                         development processes through coursework and personal projects.
                         </p>
                         
                         <div class="h-px my-6 bg-txt border-0 dark:bg-txt fadein"> </div>
@@ -121,7 +123,7 @@ export default function Home() {
                                 EDUCATION
                             </h1>
 
-                            <div class="mt-10 bg-gradient-to-b from-elevation2 to-elevation rounded-[24px] h-auto w-auto fadein">
+                            <div class="mt-10 bg-gradient-to-b from-elevation2 to-elevation rounded-[24px] h-auto w-auto fadein transition-all ease-in-out duration-200 hover:bg-elevation">
                                 <div className="justify-left mx-10 py-5">
                                     <h2 className="font-bold text-3xl text-secondary paragraph">
                                         University of Toronto
