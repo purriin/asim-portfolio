@@ -184,7 +184,7 @@ export default function Home() {
                             PROJECTS
                         </h1>
 
-                        <div class="mt-10 bg-gradient-to-b from-elevation2 to-elevation rounded-[24px] h-auto w-auto fadein">
+                        <div class="mt-10 bg-gradient-to-b from-elevation2 to-elevation rounded-[24px] h-auto w-auto fadein transition-all ease-in-out duration-200 hover:bg-elevation">
                             <div className="justify-left mx-10 py-5">
                                 <div className="lg:flex justify-between">
                                     <h2 className="font-bold text-3xl text-secondary paragraph">
@@ -209,7 +209,7 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div class="mt-10 bg-gradient-to-b from-elevation2 to-elevation rounded-[24px] h-auto w-auto fadein">
+                        <div class="mt-10 bg-gradient-to-b from-elevation2 to-elevation rounded-[24px] h-auto w-auto fadein transition-all ease-in-out duration-200 hover:bg-elevation">
                             <div className="justify-left mx-10 py-5">
                                 <div className="lg:flex justify-between">
                                     <h2 className="font-bold text-3xl text-secondary paragraph">
@@ -234,7 +234,7 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div class="mt-10 bg-gradient-to-b from-elevation2 to-elevation rounded-[24px] h-auto w-auto fadein">
+                        <div class="mt-10 bg-gradient-to-b from-elevation2 to-elevation rounded-[24px] h-auto w-auto fadein transition-all ease-in-out duration-200 hover:bg-elevation">
                             <div className="justify-left mx-10 py-5">
                                 <div className="lg:flex justify-between">
                                     <h2 className="font-bold text-3xl text-secondary paragraph">
