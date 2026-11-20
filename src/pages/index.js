@@ -225,7 +225,7 @@ export default function Home() {
               {skillsCategories.map((group, idx) => (
                 <div
                   key={idx}
-                  className="bg-gradient-to-b from-elevation2 to-elevation rounded-[20px] p-6 sm:p-8 ring-1 ring-white/10 shadow-lg hover:ring-primary/40 transition-all duration-200"
+                  className="bg-[#141414] bg-gradient-to-b from-elevation2 to-elevation rounded-[20px] p-6 sm:p-8 ring-1 ring-white/10 shadow-lg hover:ring-primary/40 transition-all duration-200"
                 >
                   <h3 className="text-xl sm:text-2xl font-bold text-secondary paragraph mb-4">
                     {group.category}
@@ -251,7 +251,7 @@ export default function Home() {
               EDUCATION
             </h2>
 
-            <div className="mt-10 bg-gradient-to-b from-elevation2 to-elevation rounded-[24px] p-8 sm:p-10 ring-1 ring-white/10 shadow-xl transition-all ease-in-out duration-200 hover:bg-elevation">
+            <div className="mt-10 bg-[#141414] bg-gradient-to-b from-elevation2 to-elevation rounded-[24px] p-8 sm:p-10 ring-1 ring-white/10 shadow-xl transition-all ease-in-out duration-200 hover:ring-primary/40 hover:bg-elevation">
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
                 <h3 className="font-bold text-2xl sm:text-3xl text-secondary paragraph">
                   University of Toronto
@@ -266,12 +266,12 @@ export default function Home() {
               </p>
 
               <div className="mt-2.5">
-                <span className="inline-flex items-center text-secondary bg-elevation2 px-3 py-1 rounded-full text-sm sm:text-base font-medium ring-1 ring-primary/30 paragraph">
+                <span className="inline-flex items-center text-secondary bg-elevation2 px-3 py-1 rounded-full text-sm sm:text-base font-medium ring-1 ring-primary/40 paragraph">
                   Minor in Artificial Intelligence
                 </span>
               </div>
 
-              <div className="h-px my-6 bg-white/10" />
+              <div className="h-px my-6 bg-txt/30" />
 
               <h4 className="text-xl font-bold text-bright paragraph mb-4">
                 Relevant Coursework:

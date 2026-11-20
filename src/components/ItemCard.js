@@ -20,7 +20,7 @@ export default function ItemCard({
     return (
       <Link
         to={`/work/${slug}`}
-        className={`group relative flex items-center justify-between p-6 sm:p-8 bg-bg/95 bg-gradient-to-b from-elevation2 to-elevation hover:bg-elevation rounded-[20px] border border-white/15 hover:border-primary/60 ring-1 ring-white/10 hover:ring-primary/40 transition-all duration-200 hover:-translate-y-1 shadow-lg cursor-pointer ${className}`}
+        className={`group relative flex items-center justify-between p-6 sm:p-8 bg-[#141414] bg-gradient-to-b from-elevation2 to-elevation hover:bg-elevation rounded-[20px] ring-1 ring-white/10 hover:ring-primary/40 transition-all duration-200 hover:-translate-y-1 shadow-lg cursor-pointer ${className}`}
       >
         <h3 className="text-xl sm:text-2xl font-semibold text-bright group-hover:text-primary transition-colors duration-200 paragraph pr-4">
           {cardName}
@@ -47,7 +47,7 @@ export default function ItemCard({
 
   return (
     <div
-      className={`relative flex items-center justify-between p-6 sm:p-8 bg-bg/95 bg-gradient-to-b from-elevation2 to-elevation rounded-[20px] border border-white/15 ring-1 ring-white/10 shadow-lg select-none ${className}`}
+      className={`relative flex items-center justify-between p-6 sm:p-8 bg-[#141414] bg-gradient-to-b from-elevation2 to-elevation rounded-[20px] ring-1 ring-white/10 shadow-lg select-none ${className}`}
     >
       <h3 className="text-xl sm:text-2xl font-semibold text-bright paragraph">
         {cardName}

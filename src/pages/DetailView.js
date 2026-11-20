@@ -34,7 +34,7 @@ export default function DetailView() {
           <div className="mt-10">
             <Link
               to="/"
-              className="inline-flex items-center px-6 py-3 rounded-xl bg-elevation text-primary ring-1 ring-primary/40 hover:ring-primary hover:bg-elevation2 transition-all duration-200 paragraph text-lg font-medium"
+              className="inline-flex items-center px-6 py-3 rounded-xl bg-elevation text-primary ring-1 ring-primary hover:ring-bright hover:bg-elevation2 transition-all duration-200 paragraph text-lg font-medium"
             >
               ← Return to Home
             </Link>
@@ -126,7 +126,7 @@ export default function DetailView() {
                   href={link.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center px-4 py-2 rounded-lg bg-elevation text-bright ring-1 ring-white/10 hover:ring-primary hover:text-primary transition-all duration-200 paragraph text-sm font-semibold"
+                  className="inline-flex items-center px-4 py-2 rounded-lg bg-[#161616] text-bright ring-1 ring-white/10 hover:ring-primary hover:text-primary transition-all duration-200 paragraph text-sm font-semibold"
                 >
                   {link.label} ↗
                 </a>
@@ -138,7 +138,7 @@ export default function DetailView() {
         {/* Tier 1: Highlights Box */}
         <section
           aria-labelledby="resume-highlights-heading"
-          className="bg-gradient-to-b from-elevation2 to-elevation rounded-[24px] p-6 sm:p-10 ring-1 ring-white/10 shadow-xl"
+          className="bg-[#141414] bg-gradient-to-b from-elevation2 to-elevation rounded-[24px] p-6 sm:p-10 ring-1 ring-white/10 shadow-xl"
         >
           <div className="flex items-center justify-between border-b border-white/10 pb-4 mb-6">
             <h3
@@ -187,10 +187,10 @@ export default function DetailView() {
         {item.detailedBreakdown && (
           <section
             aria-labelledby="detailed-breakdown-heading"
-            className="mt-12 bg-gradient-to-b from-elevation2 to-elevation rounded-[24px] p-6 sm:p-10 ring-1 ring-primary/20 shadow-xl"
+            className="mt-12 bg-[#141414] bg-gradient-to-b from-elevation2 to-elevation rounded-[24px] p-6 sm:p-10 ring-1 ring-primary/40 shadow-xl"
           >
-            <div className="border-b border-white/10 pb-4 mb-8">
-              <span className="text-xs uppercase tracking-wider text-primary font-semibold px-2.5 py-1 rounded-md bg-elevation ring-1 ring-primary/30">
+            <div className="border-b border-primary/20 pb-4 mb-8">
+              <span className="text-xs uppercase tracking-wider text-primary font-semibold px-2.5 py-1 rounded-md bg-elevation ring-1 ring-primary/40">
                 Engineering Deep Dive
               </span>
               <h3
