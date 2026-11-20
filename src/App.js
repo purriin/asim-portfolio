@@ -2,6 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './pages';
+import DetailView from './pages/DetailView';
+import ScrollToTop from './components/ScrollToTop';
+import SmoothScroll from './components/SmoothScroll';
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
@@ -22,13 +25,17 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+// eslint-disable-next-line no-unused-vars
 const analytics = getAnalytics(app);
 function App() {
   return (
     <div>
       <Router>
+        <SmoothScroll />
+        <ScrollToTop />
         <Routes>
-          <Route path='/' exact component={Home} element={<Home />}/>
+          <Route path='/' exact element={<Home />}/>
+          <Route path='/work/:slug' element={<DetailView />} />
         </Routes>
       </Router>
 
